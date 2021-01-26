@@ -37,9 +37,7 @@ html {
 }
 
 .card-img {
-  height: 100%;
   overflow: hidden;
-  /* height: 320px */
 }
 .card-img img {
   width: 100%;
@@ -85,6 +83,16 @@ p {
   border-radius: 50%;
 }
 
+p.name {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  font-stretch: expanded;
+}
+
+p.name span {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+}
 /* info - active styles*/
 .active {
   display: none;
@@ -114,7 +122,7 @@ p {
 
 img.share {
   padding: 5px;
-  height: 30px;
+  height: 20px;
 }
 
 @media only screen and (min-width: 760px) {
