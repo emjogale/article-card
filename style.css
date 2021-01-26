@@ -33,7 +33,7 @@ html {
   justify-content: left;
   background-color: white;
   margin-top: 3rem;
-  box-shadow: 5px 3px 7px -2px hsl(212, 23%, 69%));
+  box-shadow: 5px 3px 7px -2px hsl(212, 23%, 69%);
 }
 
 .card-img {
@@ -50,7 +50,8 @@ html {
   padding: 2.5rem;
 }
 
-.card-text h1, .info {
+.card-text h1,
+.info {
   font-weight: 700;
   color: hsl(217, 19%, 35%);
   font-stretch: extra-expanded;
@@ -66,21 +67,17 @@ p {
 }
 /*info styles */
 .info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    border: 1px solid black;
-    padding: 1rem 2.5rem;
-    background-color: hsl(217, 19%, 35%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 20px 2.5rem;
 }
 
 /*info static styles*/
-.static{
+.static {
   display: none;
-}
-/* info - active styles*/
-.active {background-color: hsl(217, 19%, 35%);
 }
 
 .avatar {
@@ -88,16 +85,38 @@ p {
   border-radius: 50%;
 }
 
-.share{
- height: 28px;
- border-radius: 50%;
- background-color: hsl(210, 46%, 95%);
- /* border: 1px black solid; */
- }
-
-img.share  {
- padding: 5px; 
+/* info - active styles*/
+.active {
+  /* display: none; */
+  background-color: hsl(217, 19%, 35%);
 }
+.active p {
+  font-weight: 700;
+  letter-spacing: 5px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+.socials img {
+  padding: 0.6rem;
+  height: 35px;
+}
+/* .active .share{
+
+} */
+.share {
+  border-radius: 50%;
+  background-color: hsl(210, 46%, 95%);
+  /* border: 1px black solid; */
+}
+
+img.share {
+  padding: 5px;
+  height: 30px;
+}
+
 .attribution {
   font-size: 11px;
 }
