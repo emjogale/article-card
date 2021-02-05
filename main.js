@@ -1,8 +1,11 @@
 const share = document.querySelector(".share");
-const info = document.querySelector(".info");
+const static = document.getElementById("static");
+const active = document.getElementById("active");
 
 function toggleShare() {
-  info.classList.add(".active");
+  console.log("trying to toggle");
+  active.style.display === "block";
+  static.style.display === "none";
 }
 
 share.addEventListener("click", toggleShare);

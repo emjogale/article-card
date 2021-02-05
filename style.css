@@ -22,6 +22,7 @@ html {
 }
 
 .card {
+  /* min-width: 80%; */
   border-radius: 12px;
   overflow: hidden;
   height: 100%;
@@ -38,6 +39,7 @@ html {
 
 .card-img {
   overflow: hidden;
+  width: 100%;
 }
 .card-img img {
   width: 100%;
@@ -74,9 +76,6 @@ p {
 }
 
 /*info static styles*/
-.static {
-  /* display: none; */
-}
 
 .avatar {
   height: 50px;
@@ -94,11 +93,11 @@ p.name span {
   font-weight: 500;
 }
 /* info - active styles*/
-.active {
-  display: none;
+#active {
   background-color: hsl(217, 19%, 35%);
+  display: none;
 }
-.active p {
+#active p {
   font-weight: 700;
   letter-spacing: 5px;
 }
@@ -125,14 +124,15 @@ img.share {
   height: 20px;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 1025px) {
   .card {
     flex-direction: row;
     max-width: 80%;
   }
+
   .card-img img {
-    height: auto;
-    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
   }
 }
 
