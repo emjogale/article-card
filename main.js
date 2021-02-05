@@ -2,10 +2,9 @@ const share = document.querySelector(".share");
 const static = document.getElementById("static");
 const active = document.getElementById("active");
 
-function toggleShare() {
+function showActive() {
   console.log("trying to toggle");
-  active.style.display === "block";
-  static.style.display === "none";
+  active.style.visibility === "visible";
 }
 
-share.addEventListener("click", toggleShare);
+share.addEventListener("click", showActive);

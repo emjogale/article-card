@@ -35,6 +35,7 @@ html {
   background-color: white;
   margin-top: 3rem;
   box-shadow: 5px 3px 7px -2px hsl(212, 23%, 69%);
+  position: relative;
 }
 
 .card-img {
@@ -76,7 +77,8 @@ p {
 }
 
 /*info static styles*/
-
+#static {
+}
 .avatar {
   height: 50px;
   border-radius: 50%;
@@ -95,7 +97,10 @@ p.name span {
 /* info - active styles*/
 #active {
   background-color: hsl(217, 19%, 35%);
-  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  visibility: hidden;
 }
 #active p {
   font-weight: 700;
