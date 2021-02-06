@@ -2,9 +2,13 @@ const share = document.querySelector(".share");
 const static = document.getElementById("static");
 const active = document.getElementById("active");
 
-function showActive() {
+function toggleActive() {
   console.log("trying to toggle");
-  active.style.visibility === "visible";
+  if ((active.style.visibility = "hidden")) {
+    active.style.visibility = "visible";
+  } else {
+    active.style.visibility = "hidden";
+  }
 }
 
-share.addEventListener("click", showActive);
+share.addEventListener("click", toggleActive);
