@@ -24,7 +24,7 @@ html {
 .card {
   /* min-width: 80%; */
   border-radius: 12px;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -38,13 +38,17 @@ html {
   position: relative;
 }
 
+
+
 .card-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   overflow: hidden;
   width: 100%;
-}
+  }
 .card-img img {
   width: 100%;
-  height: auto;
+ 
 }
 .card-text,
 .info {
@@ -54,17 +58,19 @@ html {
 .card-text h1,
 .info {
   font-weight: 700;
-  color: hsl(217, 19%, 35%);
+  color:  hsl(217, 19%, 35%);
   font-stretch: extra-expanded;
   line-height: 2rem;
   padding-bottom: 2rem;
+  font-weight: 700;
 }
 
 p {
-  color: hsl(214, 17%, 51%);
+  color: hsl(217, 19%, 35%);
   font-stretch: expanded;
   line-height: 1.5rem;
   font-weight: 500;
+  font-size: 16px;
 }
 /*info styles */
 .info {
@@ -98,12 +104,14 @@ p.name span {
   background-color: hsl(217, 19%, 35%);
   position: absolute;
   bottom: 0;
+  
   width: 100%;
   visibility: hidden;
 }
 #active p {
   font-weight: 700;
   letter-spacing: 5px;
+  color :hsl(212, 23%, 69%);
 }
 
 .socials {
@@ -131,15 +139,31 @@ img.share {
 @media only screen and (min-width: 1025px) {
   .card {
     flex-direction: row;
-    max-width: 80%;
+    max-width: 70%;
+    max-height: 350px;
   }
 
+  .card-img{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 0px;
+  }
   .card-img img {
     min-height: 100%;
     object-fit: cover;
   }
-}
 
+  .card-body {
+    overflow: visible;
+  }
+
+  #active {
+    bottom: 80px;
+    width: 30%;
+    left: 80%;
+    z-index: 10;
+}
+}
 .attribution {
   font-size: 11px;
 }
