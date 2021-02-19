@@ -114,7 +114,6 @@ p.name span {
   border-bottom-left-radius: 15px;
   width: 100%;
   visibility: hidden;
-  padding: 1rem 2rem;
 }
 #active p {
   font-weight: 700;
@@ -169,6 +168,7 @@ img.share {
     left: 80%;
     border-radius: 15px;
     min-width: fit-content;
+    padding: 1rem 2rem;
   }
 
   .active.share {
