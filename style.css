@@ -171,10 +171,20 @@ img.share {
     padding: 1rem 2rem;
   }
 
+ #active.info::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 100px;
+  width: 20px;
+  height: 20px;
+  background:  hsl(217, 19%, 35%);
+  transform: rotate(45deg);
+ }
   .active.share {
     display: none;
   }
-}
+
 .attribution {
   font-size: 11px;
 }
