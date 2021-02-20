@@ -115,6 +115,7 @@ p.name span {
   width: 100%;
   visibility: hidden;
 }
+
 #active p {
   font-weight: 700;
   letter-spacing: 5px;
@@ -170,7 +171,7 @@ img.share {
     min-width: fit-content;
     padding: 1rem 2rem;
   }
-
+ 
  #active.info::after {
   content: "";
   position: absolute;
