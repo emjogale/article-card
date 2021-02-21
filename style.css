@@ -63,19 +63,19 @@ html {
 }
 
 .card-text h1 {
+  font-size: 20px;
   font-weight: 700;
   color: hsl(217, 19%, 35%);
   font-stretch: extra-expanded;
   line-height: 2rem;
   padding-bottom: 2rem;
-  font-weight: 700;
 }
 
 p {
   color: hsl(214, 17%, 51%);
   font-stretch: expanded;
   line-height: 1.5rem;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
 }
 /*info styles */
