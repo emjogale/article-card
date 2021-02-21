@@ -1,6 +1,7 @@
 const share = document.querySelector(".share");
 const static = document.getElementById("static");
 const active = document.getElementById("active");
+const imgActive = document.getElementById("activeShare");
 
 function toggleActive() {
   console.log("trying to toggle");
@@ -14,7 +15,7 @@ function toggleActive() {
 
 share.addEventListener("click", toggleActive);
 
-share.addEventListener("click", toggleActive);
+imgActive.addEventListener("click", toggleActive);
 
 // share.addEventListener("click", function () {
 //   if (this.classList.contains("active")) {
