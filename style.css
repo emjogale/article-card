@@ -7,6 +7,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
 
+body {
+  display:grid;
+  place-items: center;
+  height:100vh;
+}
+
 html {
   font-family: "Manrope", sans-serif;
   font-size: 13px;
@@ -176,11 +182,12 @@ img.share {
   content: "";
   position: absolute;
   bottom: -5px;
-  left: 100px;
+  left: 40%;
   width: 20px;
   height: 20px;
   background:  hsl(217, 19%, 35%);
   transform: rotate(45deg);
+  
  }
   .active.share {
     display: none;
