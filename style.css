@@ -28,13 +28,13 @@ html {
 }
 
 .card {
-  /* min-width: 80%; */
+ 
   border-radius: 12px;
-  /* overflow: hidden; */
+
   height: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 550px;
+  max-width: 450px;
   margin: 0 auto;
   text-align: left;
   justify-content: left;
@@ -74,7 +74,7 @@ html {
 p {
   color: hsl(214, 17%, 51%);
   font-stretch: expanded;
-  line-height: 1.5rem;
+  line-height: 2rem;
   font-weight: 500;
   font-size: 16px;
 }
