@@ -176,17 +176,18 @@ img.share {
     border-radius: 15px;
     min-width: fit-content;
     padding: 1rem 2rem;
+    transform: translateX(-10%);
   }
  
  #active.info::after {
   content: "";
   position: absolute;
   bottom: -5px;
-  left: 40%;
+  left: 50%;
   width: 20px;
   height: 20px;
   background:  hsl(217, 19%, 35%);
-  transform: rotate(45deg);
+  transform: rotate(45deg) ;
   
  }
   .active.share {
