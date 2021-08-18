@@ -29,30 +29,26 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://github.com/emjogale/3-column-preview-card)
+- Live Site URL: [Add live site URL here]()
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
+- Flexbox and grid layout
 - Mobile-first workflow
 
 ### What I learned
 
-Firstly I realised that using a <link> tag for Google fonts was the way to go - as the @import wasn't working correctly for me. Secondly that the line height is really important for giving nice spacing on the text.
-I also learnt that the hover transition would be much nicer if I had a border already on the button - and had it the same colour as the background - so it wouldn't show until the hover transition happended. Otherwise the added height would cause the page to move in an annoying way.
-Using <object> tags for the svg's seemed to work well - whether this is preferrable to an <img> or not yet I don't know.
+You should write the README file alongside working on the project and not leave it until after you've finished!
 
 ### Continued development
 
-I'm still not 100% on the container and positioning rules. Sometimes it seems I'm not sure whether a container is necessary or not - but I will hopefully get the hang of this.
-
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Web/CSS/line-height) - This helped me for the line height.
-- [Example resource 2](https://www.freecodecamp.org/news/use-svg-images-in-css-html/) - This is really interesting article about the various ways you can use svg images.
-- [Example resource 3](https://webdesign.tutsplus.com/articles/css-tips-for-better-color-and-contrast-accessibility--cms-34472) - This is an excellent article about how to easily improve the accessibility of colours. I found the bits about hsl colours particularly helpful.
+- [Example resource 1]() -
+- [Example resource 2]() -
+- [Example resource 3]() -
 
 ## Author
 
