@@ -10,9 +10,7 @@
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+  - [Author](#author)
 
 ## Overview
 
@@ -29,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here]()
+- Live Site URL: [https://article-card-emjogale.vercel.app/](https://article-card-emjogale.vercel.app/)
 
 ### Built with
 
@@ -40,15 +38,11 @@ Users should be able to:
 
 ### What I learned
 
-You should write the README file alongside working on the project and not leave it until after you've finished!
+I should write the README file alongside working on the project and not leave it until after I've finished!
 
 ### Continued development
 
-### Useful resources
-
-- [Example resource 1]() -
-- [Example resource 2]() -
-- [Example resource 3]() -
+I need to improve a lot on the implementation of the javascript aspects and also the css needs improvement - the active states aren't working correctly yet - certainly in some of the smaller screen sizes.
 
 ## Author
 
