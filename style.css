@@ -112,6 +112,9 @@ p.name span {
 	width: 100%;
 	visibility: hidden;
 }
+#active.notHidden {
+	visibility: visible;
+}
 
 #active p {
 	font-weight: 700;
@@ -136,7 +139,7 @@ p.name span {
 
 img.share {
 	padding: 5px;
-	height: 20px;
+	height: 25px;
 }
 
 @media only screen and (min-width: 1025px) {
