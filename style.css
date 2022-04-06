@@ -5,6 +5,59 @@
 	box-sizing: border-box;
 }
 
+/* visually hidden */
+.sr-only {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+/* reset styles */
+html {
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+html,
+button {
+	font-family: "Red Hat Display", sans-serif;
+	font: 16px;
+	color: var(--dark-blue);
+}
+
 html {
 	font-family: "Manrope", sans-serif;
 	font-size: 13px;
