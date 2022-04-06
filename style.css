@@ -60,42 +60,26 @@ button {
 
 html {
 	font-family: "Manrope", sans-serif;
-	font-size: 13px;
 }
 
 /*container styles */
 .container {
 	display: flex;
 	min-height: 100vh;
-	width: 100%;
 	background-color: hsl(210, 46%, 95%);
-	padding: 30px;
-	place-items: center;
+	padding: 4.625rem 1.5rem 5rem;
+	justify-content: center;
+	align-items: center;
 }
 
 .card {
-	border-radius: 12px;
-	height: 100%;
+	border-radius: 0.625rem;
 	display: flex;
 	flex-direction: column;
-	max-width: 450px;
-	margin: 0 auto;
-	text-align: left;
-	justify-content: left;
 	background-color: white;
-	margin-top: 3rem;
+	overflow: hidden;
 	box-shadow: 5px 3px 7px -2px hsl(212, 23%, 69%);
 	position: relative;
-}
-
-.card-img {
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
-	overflow: hidden;
-	width: 100%;
-}
-.card-img img {
-	width: 100%;
 }
 
 .card-body {
@@ -107,20 +91,20 @@ html {
 }
 
 .card-text h1 {
-	font-size: 20px;
+	font-size: 1rem;
 	font-weight: 700;
 	color: hsl(217, 19%, 35%);
-	font-stretch: extra-expanded;
-	line-height: 2rem;
-	padding-bottom: 2rem;
+	letter-spacing: 0.13;
+	line-height: 1.6;
+	padding-bottom: 0.75rem;
 }
 
 p {
 	color: hsl(214, 17%, 51%);
-	font-stretch: expanded;
-	line-height: 2rem;
+	letter-spacing: 0.15;
+	line-height: 1.6;
 	font-weight: 500;
-	font-size: 16px;
+	font-size: 0.8125rem;
 }
 /*info styles */
 .info {
@@ -129,8 +113,6 @@ p {
 	justify-content: space-between;
 	align-items: center;
 	padding: 2rem;
-	/* border: 1px solid black; */
-	/* padding: 20px 2.5rem; */
 }
 
 /*info static styles*/
