@@ -83,13 +83,11 @@ html {
 }
 
 .card-img {
-	height: 12.5rem;
+	height: 13rem;
 	overflow: hidden;
 }
 
 .card-body {
-	display: grid;
-	grid-template-rows: 1fr auto;
 	padding: 2rem 2rem 1.25rem 2rem;
 }
 
@@ -132,8 +130,7 @@ p {
 p.name {
 	color: hsl(217, 19%, 35%);
 	font-weight: 700;
-	font-stretch: expanded;
-	padding-left: 20px;
+	padding-left: 1.25rem;
 }
 
 p.name span {
@@ -141,6 +138,12 @@ p.name span {
 	font-weight: 700;
 	display: block;
 }
+
+.share {
+	border-radius: 50%;
+	padding: 0.5rem;
+}
+
 /* info - active styles*/
 #active {
 	background-color: hsl(217, 19%, 35%);
@@ -170,21 +173,10 @@ p.name span {
 	height: 35px;
 }
 
-.share {
-	border-radius: 50%;
-	background-color: hsl(210, 46%, 95%);
-	/* border: 1px black solid; */
-}
-
-img.share {
-	padding: 5px;
-	height: 25px;
-}
-
 @media only screen and (min-width: 1025px) {
 	.card {
 		flex-direction: row;
-		max-width: 70%;
+		max-width: 45.625rem;
 		max-height: 350px;
 		overflow: visible;
 	}
@@ -201,6 +193,11 @@ img.share {
 
 	.card-body {
 		overflow: visible;
+		padding: 2rem 2.5rem;
+	}
+
+	.card-body h2 {
+		font-size: 1.25rem;
 	}
 
 	#active {
