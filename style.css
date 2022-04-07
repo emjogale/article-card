@@ -87,7 +87,7 @@ html {
 	overflow: hidden;
 }
 
-.card-body {
+.card-text {
 	padding: 2rem 2rem 0 2rem;
 }
 
@@ -169,10 +169,9 @@ p.name span {
 }
 .socials img {
 	padding: 0.6rem;
-	height: 35px;
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 700px) {
 	.card {
 		flex-direction: row;
 		max-width: 45.625rem;
@@ -195,8 +194,16 @@ p.name span {
 		padding: 2rem 2.5rem;
 	}
 
+	.card-text {
+		padding: 0;
+	}
+
 	.card-body h2 {
 		font-size: 1.25rem;
+	}
+
+	.info {
+		padding: 1rem 0 0 0;
 	}
 
 	#active {
@@ -206,7 +213,7 @@ p.name span {
 		border-radius: 13px;
 		min-width: fit-content;
 		padding: 1rem 2rem;
-		transform: translateX(-10%);
+		transform: translateX(-18%);
 	}
 
 	#active.info::after {
