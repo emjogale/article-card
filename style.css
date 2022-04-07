@@ -186,12 +186,13 @@ img.share {
 		flex-direction: row;
 		max-width: 70%;
 		max-height: 350px;
+		overflow: visible;
 	}
 
 	.card-img {
 		border-top-left-radius: 15px;
 		border-bottom-left-radius: 15px;
-		border-top-right-radius: 0px;
+		height: auto;
 	}
 	.card-img img {
 		min-height: 100%;
