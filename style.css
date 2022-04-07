@@ -88,7 +88,7 @@ html {
 }
 
 .card-body {
-	padding: 2rem 2rem 1.25rem 2rem;
+	padding: 2rem 2rem 0 2rem;
 }
 
 .card-text h2 {
@@ -113,7 +113,7 @@ p {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding-top: 2rem;
+	padding: 1.5rem;
 }
 
 /*info static styles*/
@@ -149,8 +149,7 @@ p.name span {
 	background-color: hsl(217, 19%, 35%);
 	position: absolute;
 	bottom: 0;
-	border-bottom-right-radius: 15px;
-	border-bottom-left-radius: 15px;
+
 	width: 100%;
 	visibility: hidden;
 }
