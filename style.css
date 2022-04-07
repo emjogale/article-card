@@ -163,6 +163,10 @@ p.name span {
 	color: hsl(212, 23%, 69%);
 }
 
+img#activeShare {
+	background-color: white;
+}
+
 .socials {
 	display: flex;
 	flex-direction: row;
