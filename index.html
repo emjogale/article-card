@@ -1,84 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css" />
-    <title>Frontend Mentor | Article preview component</title>
-  </head>
-  <body>
-    <h1 class="sr-only">Article preview component</h1>
-    <section class="container">
-      <div class="card">
-        <div class="card-img">
-          <img src="./images/drawers.jpg" alt="chest of drawers" />
-        </div>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+			rel="stylesheet"
+		/>
 
-        <div class="card-body">
-          <div class="card-text">
-            <h1>
-              Shift the overall look and feel by adding these wonderful touches
-              to furniture in your home
-            </h1>
-            <p>
-              Ever been in a room and felt like something was missing? Perhaps
-              it felt slightly bare and uninviting. I’ve got some simple tips to
-              help you make any room feel complete.
-            </p>
-          </div>
-         
-          <div id = "static" class="info">
-            <div class="author">
-              <img
-              src="./images/avatar-michelle.jpg"
-              alt="Michelle"
-              class="avatar"
-              />
-              <p class="name">Michelle Appleton </br>
-              <span>28 Jun 2020</span></p>
-            </div>
-            <img src="./images/icon-share.svg" alt="share" class="share" />
-            </div>
+		<link rel="stylesheet" href="style.css" />
+		<title>Frontend Mentor | Article preview component</title>
+	</head>
+	<body>
+		<h1 class="sr-only">Article preview component</h1>
+		<main class="container">
+			<article class="card">
+				<div class="card-img">
+					<img src="./images/drawers.jpg" alt="chest of drawers" />
+				</div>
 
-          <div id="active"class="info">
-            <p>SHARE</p>
-            <div class="socials">
-              <img src="./images/icon-facebook.svg" alt="facebook" />
-              <img src="./images/icon-twitter.svg" alt="twitter" />
-              <img src="./images/icon-pinterest.svg" alt="" />
-            </div>
+				<div class="card-body">
+					<div class="card-text">
+						<h2>
+							Shift the overall look and feel by adding these wonderful touches
+							to furniture in your home
+						</h2>
+						<p>
+							Ever been in a room and felt like something was missing? Perhaps
+							it felt slightly bare and uninviting. I’ve got some simple tips to
+							help you make any room feel complete.
+						</p>
+					</div>
 
-            <img
-              src="./images/icon-share.svg"
-              alt="share"
-              class="active share"
-              id="activeShare"
-            />
-          </div>
-        
-        </div>
-      </div>
-    </section>
+					<div id="static" class="info">
+						<div class="author">
+							<img
+								src="./images/avatar-michelle.jpg"
+								alt="Michelle Appleton avatar"
+								class="avatar"
+							/>
+							<p class="name">Michelle Appleton <span>28 Jun 2020</span></p>
+						</div>
+						<div class="share-img">
+							<img src="./images/icon-share.svg" alt="share" class="share" />
+						</div>
+					</div>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Emma Gale</a>.
-    </div>
-    <script src="main.js"></script>
-  </body>
+					<div id="active" class="info">
+						<p>SHARE</p>
+						<div class="socials">
+							<img src="./images/icon-facebook.svg" alt="facebook" />
+							<img src="./images/icon-twitter.svg" alt="twitter" />
+							<img src="./images/icon-pinterest.svg" alt="" />
+						</div>
+
+						<div class="share-img">
+							<img
+								src="./images/icon-share.svg"
+								alt="share"
+								class="active share"
+								id="activeShare"
+							/>
+						</div>
+					</div>
+				</div>
+			</article>
+		</main>
+
+		<footer class="attribution">
+			Challenge by
+			<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+				>Frontend Mentor</a
+			>. Coded by <a href="#">Emma Gale</a>.
+		</footer>
+		<script src="main.js"></script>
+	</body>
 </html>
